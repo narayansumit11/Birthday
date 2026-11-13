@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#fff4f5" />
+  <meta name="description" content="A little birthday universe made just for Buuuuu, with love." />
+  <title>For Buuuuu ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <div class="petal-layer" id="petalLayer" aria-hidden="true"></div>
+  <div class="soft-glow glow-a" aria-hidden="true"></div>
+  <div class="soft-glow glow-b" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Back to top">for my Buuuuu <span>♡</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#memories">our moments</a>
+      <a href="#reasons">12 reasons</a>
+      <a href="#letter">a letter</a>
+    </nav>
+    <a class="header-heart" href="#countdown" aria-label="Skip to countdown">♡</a>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="hero-orbit orbit-one" aria-hidden="true"></div>
+      <div class="hero-orbit orbit-two" aria-hidden="true"></div>
+      <div class="hero-copy reveal-on-load">
+        <p class="eyebrow"><span class="eyebrow-line"></span> 15 november 2026 <span class="eyebrow-line"></span></p>
+        <p class="pre-title">a little universe, made only for</p>
+        <h1 id="heroTitle">Happy Birthday,<br><em>Buuuuu</em><span class="title-heart">♡</span></h1>
+        <p class="hero-subtitle">Even from miles away, you are the closest thing to my heart.</p>
+        <a class="pill-button" href="#ourStory">Come inside, birthday girl <span>↘</span></a>
+        <div class="hero-footnote"><span>made with</span> <b>all my love</b> <span>and a million little memories</span></div>
+      </div>
+      <div class="hero-photos" aria-label="A favourite photo of us">
+        <div class="photo-back back-one"><img src="images/memory-20.webp" alt="A favourite day together" fetchpriority="high"></div>
+        <div class="photo-back back-two"><img src="images/memory-11.webp" alt="A sweet moment together" fetchpriority="high"></div>
+        <figure class="hero-photo-main">
+          <span class="tape tape-top"></span>
+          <img src="images/memory-04.webp" alt="A close selfie together" fetchpriority="high">
+          <figcaption>my favourite place is next to you <span>♡</span></figcaption>
+        </figure>
+        <span class="floating-doodle doodle-one">✿</span>
+        <span class="floating-doodle doodle-two">♡</span>
+        <span class="floating-doodle doodle-three">✧</span>
+      </div>
+      <a class="scroll-cue" href="#ourStory"><span>scroll a little</span><i></i></a>
+    </section>
+
+    <section class="story section-wrap" id="ourStory">
+      <div class="section-heading reveal">
+        <p class="eyebrow">first, a little reminder</p>
+        <h2>Today may be far away.<br><em>My love isn't.</em></h2>
+        <p class="section-intro">I wish I could be next to you on the 15th — to hug you, annoy you, make you laugh, and celebrate you properly. Since I can't, I made you a tiny place you can come back to whenever you miss me.</p>
+      </div>
+      <div class="story-note reveal">
+        <span class="note-flower">❀</span>
+        <p>Birthday celebrations can wait a few days.<br><strong>Being completely, ridiculously in love with you cannot.</strong></p>
+        <span class="note-sign">— your person ♡</span>
+      </div>
+    </section>
+
+    <section class="memories section-wrap" id="memories">
+      <div class="section-heading reveal">
+        <p class="eyebrow">little pieces of forever</p>
+        <h2>Our story, in <em>little frames</em></h2>
+        <p class="section-intro">Twenty snapshots. A thousand feelings. And still so many more moments waiting for us.</p>
+      </div>
+      <div class="memory-filter reveal" aria-label="Memory collection note"><span class="filter-dot"></span> a collection of us <span>✧</span> tap any photo to see it closer</div>
+      <div class="memory-grid" id="memoryGrid" aria-label="Photo memories"></div>
+      <p class="gallery-foot reveal">and the camera roll is still not done… <span>♡</span></p>
+    </section>
+
+    <section class="reasons section-wrap" id="reasons">
+      <div class="section-heading reveal">
+        <p class="eyebrow">the most obvious question</p>
+        <h2>I love you, <em>kyonki…</em></h2>
+        <p class="section-intro">I could keep going, but let's start with twelve. Tap each little heart — I wrote every one of these thinking about you.</p>
+      </div>
+      <div class="reasons-grid" id="reasonsGrid"></div>
+      <div class="reason-end reveal">And even after all these reasons… <em>the simplest one is still you.</em> ♡</div>
+    </section>
+
+    <section class="letter-section section-wrap" id="letter">
+      <div class="section-heading reveal">
+        <p class="eyebrow">open when you need a hug</p>
+        <h2>A letter for <em>my Buuuuu</em></h2>
+      </div>
+      <article class="letter reveal">
+        <div class="letter-top"><span>♡</span><span>to my favourite human</span><span>♡</span></div>
+        <p class="letter-dear">Meri Buuuuu,</p>
+        <p>Happy birthday, meri jaan. I wish more than anything that I could be with you today. I would probably spend half the day looking at you and the other half finding excuses to hug you.</p>
+        <p>But even though we're not together on the 15th, please never feel that you're celebrating alone. I am thinking about you, missing you, and feeling ridiculously lucky that I get to love someone like you.</p>
+        <p>You take care of me in a hundred little ways, understand the things I don't even say, stand by me, motivate me, and make even the most ordinary things feel special. I hope I make you feel just as loved, safe, respected, and happy as you make me feel.</p>
+        <p>I hope this year gives you reasons to smile every single day. I hope you get everything your heart quietly wishes for. And I hope I get to be beside you for countless birthdays after this one — making memories, singing our perfectly matched songs, eating all the things, and laughing at our own silly jokes.</p>
+        <p>For now, save one very big hug for me. Our celebration is just a little delayed.</p>
+        <p class="letter-signoff">I love you. Bahot bahot bahot. <span>♡</span><br><em>Yours, always.</em></p>
+        <div class="letter-stamp">made<br>with love</div>
+      </article>
+    </section>
+
+    <section class="countdown-section" id="countdown">
+      <div class="countdown-inner reveal">
+        <span class="countdown-flower">✿</span>
+        <p class="eyebrow">the next page of our story</p>
+        <h2>See you on the <em>21st, Buuuuu.</em></h2>
+        <p class="countdown-intro">Birthday hugs, a proper celebration, and my favourite person right in front of me.</p>
+        <div class="countdown" role="timer" aria-label="Countdown to 21 November 2026">
+          <div class="time-card"><strong id="days">00</strong><span>days</span></div>
+          <div class="time-card"><strong id="hours">00</strong><span>hours</span></div>
+          <div class="time-card"><strong id="minutes">00</strong><span>minutes</span></div>
+          <div class="time-card"><strong id="seconds">00</strong><span>seconds</span></div>
+        </div>
+        <p class="countdown-message" id="countdownMessage">Counting every little moment until I see you. ♡</p>
+        <div class="date-pill">21 · 11 · 2026 <span>♡</span></div>
+      </div>
+    </section>
+
+    <section class="last-surprise section-wrap">
+      <div class="surprise-card reveal">
+        <div class="surprise-sparkle">✧</div>
+        <p class="eyebrow">psst… one last thing</p>
+        <h2>There's a little <em>secret</em> for you.</h2>
+        <p>Because one birthday message is never enough for my favourite girl.</p>
+        <button class="pill-button surprise-button" id="secretButton" type="button">Open your secret <span>♡</span></button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-heart">♡</div>
+    <p>Happy birthday, Buuuuu.</p>
+    <span>you are loved more than this little website can ever say · 15.11.2026</span>
+    <a href="#top">back to the beginning ↑</a>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close photo">×</button>
+    <button class="lightbox-nav prev" id="lightboxPrev" aria-label="Previous photo">‹</button>
+    <figure><img id="lightboxImage" src="" alt="A memory together"><figcaption id="lightboxCaption"></figcaption></figure>
+    <button class="lightbox-nav next" id="lightboxNext" aria-label="Next photo">›</button>
+  </div>
+
+  <div class="secret-modal" id="secretModal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="secretTitle">
+    <div class="secret-paper">
+      <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+      <div class="secret-flower">🌷</div>
+      <p class="eyebrow">just between us</p>
+      <h2 id="secretTitle">One more thing, Buuuuu…</h2>
+      <p class="secret-copy">No matter how many photos we take, how many reasons I write, or how many times I say it — I will never get tired of choosing you.</p>
+      <p class="secret-final">You're my favourite. Today, on the 21st, and all the ordinary days in between. <span>♡</span></p>
+      <button class="pill-button" id="secretDone" type="button">I love you too? <span>♡</span></button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
